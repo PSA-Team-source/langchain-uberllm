@@ -1,0 +1,61 @@
+# serializer version: 1
+# name: TestChatUberLLMStandard.test_serdes[serialized]
+  dict({
+    'id': list([
+      'langchain_uberllm',
+      'chat_models',
+      'ChatUberLLM',
+    ]),
+    'kwargs': dict({
+      'max_retries': 2,
+      'max_tokens': 100,
+      'model_name': 'deepseek/deepseek-v4-flash',
+      'openai_api_base': 'https://api.uberllm.dev/v1',
+      'openai_api_key': dict({
+        'id': list([
+          'UBERLLM_API_KEY',
+        ]),
+        'lc': 1,
+        'type': 'secret',
+      }),
+      'request_timeout': 60.0,
+      'stop': list([
+      ]),
+      'stream_usage': True,
+      'temperature': 0.0,
+    }),
+    'lc': 1,
+    'name': 'ChatUberLLM',
+    'type': 'constructor',
+  })
+# ---
+# name: TestChatUberLLMStandard.test_serdes_allowlisted[serialized]
+  dict({
+    'id': list([
+      'langchain_uberllm',
+      'chat_models',
+      'ChatUberLLM',
+    ]),
+    'kwargs': dict({
+      'max_retries': 2,
+      'max_tokens': 100,
+      'model_name': 'deepseek/deepseek-v4-flash',
+      'openai_api_base': 'https://api.uberllm.dev/v1',
+      'openai_api_key': dict({
+        'id': list([
+          'UBERLLM_API_KEY',
+        ]),
+        'lc': 1,
+        'type': 'secret',
+      }),
+      'request_timeout': 60.0,
+      'stop': list([
+      ]),
+      'stream_usage': True,
+      'temperature': 0.0,
+    }),
+    'lc': 1,
+    'name': 'ChatUberLLM',
+    'type': 'constructor',
+  })
+# ---
